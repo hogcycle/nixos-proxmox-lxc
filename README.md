@@ -4,7 +4,7 @@ Build using
 
 nix run github:nix-community/nixos-generators -- --format proxmox-lxc --configuration lxc.nix
 
-To avoid the [busctl](https://github.com/nix-community/nixos-generators/issues/319) error:
+To avoid the [busctl](https://github.com/nix-community/nixos-generators/issues/319) error: (apparently patched)
 
 1. Build image
 2. Run image
