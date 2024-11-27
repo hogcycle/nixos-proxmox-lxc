@@ -3,6 +3,7 @@
   system.stateVersion = "24.11";
   imports = [ 
     ./base.nix
+    ./hardware-configuration.nix
     (modulesPath + "/virtualisation/proxmox-lxc.nix")
   ]; 
   boot.isContainer = true; 
